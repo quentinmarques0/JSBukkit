@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Bukkit",
+        "description": "Plugins manager",
+        "uuid": "ffd14fa5-387b-46ab-9a54-6d2b16f43924",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 20, 0 ]
+    },
+
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "c9a79c50-477f-428d-a827-85fb5b410404",
+            "version": [0, 0, 3],
+            "entry": "scripts/main.js"
+        }
+    ],
+
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.3.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0-beta"
+        }
+        
+    ]
+}
